@@ -1,0 +1,7 @@
+Copie e cole para instalar whatick
+
+echo 'sudo apt-get update && sudo apt-get install -y net-tools unrar git && sudo apt-get upgrade -y && cd /root && \
+git clone https://github.com/Ricardo-Santos-Tostas/novoboot.git && cd novoboot && \
+unrar x -o+ whaticket_shell_saas.rar && cd whaticket_shell_saas && sudo chmod +x whaticketsaas && sudo ./whaticketsaas' > install_whaticket.sh
+chmod +x install_whaticket.sh
+sudo ./install_whaticket.sh
